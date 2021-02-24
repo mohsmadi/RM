@@ -4,8 +4,24 @@
 
 var Name = prompt("What's Your Name?")
 var age = prompt("How Old are You ?")
+var password = prompt("Enter your password")
 
+//Lab: 06a - Programming with JavaScript
+console.log(password)
+count = 0;
+arr = password.split("")
+for (var i = 0; i < arr.length; i++) {
+    count = count + 1
 
+}
+if (count >= 8) {
+    alert("sucess password")
+}
+else {
+    alert("Falied password you need check the longest of password")
+}
+
+// End 
 
 
 var amountOfMeal = prompt("how many meal you have order?")
